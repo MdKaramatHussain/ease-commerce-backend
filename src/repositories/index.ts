@@ -136,7 +136,7 @@ export class BatchRepository {
     return Batch.findAndCountAll({
       limit,
       offset,
-      order: [["created_at", "DESC"]],
+      order: [["createdAt", "DESC"]],
     });
   }
 }
